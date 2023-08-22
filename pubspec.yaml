@@ -1,0 +1,98 @@
+name: campusmap
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_google_street_view: ^3.0.0
+  google_maps_flutter: ^2.2.2
+  geolocator: ^9.0.2
+  geocoding: ^2.0.5
+  flutter_polyline_points: ^1.0.0
+  flutter_tts: ^3.6.2
+  flutter_native_splash: ^2.2.17
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.1.0
+  flutter_svg: ^2.0.5
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logos/logoanim.gif
+    - assets/logos/logo.svg
+    - assets/styles/aubergine.png
+    - assets/styles/dark.png
+    - assets/styles/night.png
+    - assets/styles/retro.png
+    - assets/styles/silver.png
+    - assets/styles/standard.png
+
+flutter_native_splash:
+
+  color: "#343541"
+  # background_image: "assets/cc nobg.png"
+  #image: "assets/cc nobg.png"
+  #branding: assets/dart.png
+  #branding_mode: bottom
+
+  #color_dark: "#042a49"
+  #background_image_dark: "assets/dark-background.png"
+  #image_dark: assets/splash-invert.png
+  #branding_dark: assets/dart_dark.png
+
+  android_12:
+    #image: "assets/cc nobg.png"
+    color: "#343541"
+    icon_background_color: "#343541"
+    #branding: assets/dart.png
+    #image_dark: assets/android12splash-invert.png
+    #color_dark: "#042a49"
+    #icon_background_color_dark: "#eeeeee"
+
+  #android: false
+  #ios: false
+  #web: false
+
+  #color_android: "#42a5f5"
+  #color_dark_android: "#042a49"
+  #color_ios: "#42a5f5"
+  #color_dark_ios: "#042a49"
+  #color_web: "#42a5f5"
+  #color_dark_web: "#042a49"
+  #image_android: assets/splash-android.png
+  #image_dark_android: assets/splash-invert-android.png
+  #image_ios: assets/splash-ios.png
+  #image_dark_ios: assets/splash-invert-ios.png
+  #image_web: assets/splash-web.png
+  #image_dark_web: assets/splash-invert-web.png
+  #background_image_android: "assets/background-android.png"
+  #background_image_dark_android: "assets/dark-background-android.png"
+  #background_image_ios: "assets/background-ios.png"
+  #background_image_dark_ios: "assets/dark-background-ios.png"
+  #background_image_web: "assets/background-web.png"
+  #background_image_dark_web: "assets/dark-background-web.png"
+  #branding_android: assets/brand-android.png
+  #branding_dark_android: assets/dart_dark-android.png
+  #branding_ios: assets/brand-ios.png
+  #branding_dark_ios: assets/dart_dark-ios.png
+
+  #android_gravity: center
+  #ios_content_mode: center
+  #web_image_mode: center
+
+  #android_screen_orientation: sensorLandscape
+  fullscreen: true
+
+  #info_plist_files:
+  #  - 'ios/Runner/Info-Debug.plist'
+  #  - 'ios/Runner/Info-Release.plist'
